@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient-change {
+    0% {
+        filter: hue-rotate(0deg) blur(118px);
+        @apply h-80 max-w-lg
+    }
+    100% {
+        filter: hue-rotate(20deg) blur(118px);
+        @apply h-[19rem] max-w-[31rem]
+    }
+}
+
+.gradient-change-animation {
+    animation: gradient-change 1s alternate ease-in infinite;
+}
+
+.coding-laptop-image-shadow {
+    box-shadow: 20px -20px 0 rgb(51 65 85);
+}
