@@ -19,6 +19,7 @@ const Header = () => {
 					className="absolute inset-0 m-auto aspect-square w-[95%] bg-sky-400 bg-opacity-10 rounded-t-full rounded-b-[30rem]"
 					src={MousaImage}
 					alt="Mousa Image"
+					loading="lazy"
 				/>
 			</section>
 		</header>

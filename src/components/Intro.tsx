@@ -18,6 +18,7 @@ const Intro = () => {
 					className="w-full h-full coding-laptop-image-shadow bg-slate-700"
 					src={CodingLaptopImage}
 					alt="Coding Laptop Image"
+					loading="lazy"
 				/>
 			</div>
 		</section>
