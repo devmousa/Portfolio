@@ -1,4 +1,4 @@
-import CodingLaptopImage from "../images/coding-laptop-image.webp";
+import CodingLaptopImage from "../images/coding-laptop-image-(1).webp";
 
 const Intro = () => {
 	return (

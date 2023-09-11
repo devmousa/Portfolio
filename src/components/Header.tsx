@@ -1,4 +1,4 @@
-import MousaImage from "../images/MousaImage.png";
+import MousaImage from "../images/MousaImage-Compressed.png";
 
 const Header = () => {
 	return (
